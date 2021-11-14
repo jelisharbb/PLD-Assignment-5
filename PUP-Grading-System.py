@@ -24,3 +24,9 @@ elif roundedGrade >= 79 and roundedGrade <= 81:
     print ("\nThis is the result based on your grade percentage \nGrade: 2.5 \nDescription: Satisfactory \n")
 elif roundedGrade >= 76 and roundedGrade <= 78:
     print ("\nThis is the result based on your grade percentage \nGrade: 2.75 \nDescription: Satisfactory \n")
+
+# 3.0 and 5.0
+elif roundedGrade == 75:
+    print ("\nThis is the result based on your grade percentage \nGrade: 3.0 \nDescription: Passing \n")
+elif roundedGrade >= 65 and roundedGrade <= 74:
+    print ("\nThis is the result based on your grade percentage \nGrade: 5.0 \nDescription: Failure \n")
