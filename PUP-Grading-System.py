@@ -1,7 +1,7 @@
 # greetings to the user
 print ("\nWelcome to PUP Grading System!")
 
-# asks for input
+# asks for input 
 userGrade = float(input("\nPlease enter your grade percentage: "))
 roundedGrade = round(userGrade)
 
@@ -30,3 +30,7 @@ elif roundedGrade == 75:
     print ("\nThis is the result based on your grade percentage \nGrade: 3.0 \nDescription: Passing \n")
 elif roundedGrade >= 65 and roundedGrade <= 74:
     print ("\nThis is the result based on your grade percentage \nGrade: 5.0 \nDescription: Failure \n")
+
+# if the user inputs number beyond the scope of the grading system
+elif roundedGrade <= 0 or roundedGrade > 100:
+    print ("\nOops! Seems like you entered an invalid number. Please enter a number within the scope of the PUP Grading System. \n")
