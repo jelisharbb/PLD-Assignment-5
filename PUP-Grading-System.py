@@ -34,3 +34,4 @@ elif roundedGrade >= 65 and roundedGrade <= 74:
 # if the user inputs number beyond the scope of the grading system
 elif roundedGrade <= 0 or roundedGrade > 100:
     print ("\nOops! Seems like you entered an invalid number. Please enter a number within the scope of the PUP Grading System. \n")
+    
