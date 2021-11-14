@@ -19,5 +19,5 @@ elif userAge >= 66 and userAge <= 120:
     print ("Hi! You're a late adult. \n")
 
 # if the user entered an invalid number
-elif userAge < 0 or userAge > 120:
+else:
     print ("Oops! Seems like you entered an invalid age. Are you a ghost? \n")
