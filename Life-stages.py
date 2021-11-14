@@ -18,5 +18,6 @@ elif userAge >= 46 and userAge <= 65:
 elif userAge >= 66 and userAge <= 120:
     print ("Hi! You're a late adult. \n")
 
-
-
+# if the user entered an invalid number
+elif userAge < 0 or userAge > 120:
+    print ("Oops! Seems like you entered an invalid age. Are you a ghost? \n")
