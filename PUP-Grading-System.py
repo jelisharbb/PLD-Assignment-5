@@ -46,7 +46,7 @@ if userGrade.isdigit() == True:
 else:
     alternativeGrade = userGrade.title()
     # incomplete
-    if userGrade == "Incomplete" or userGrade == "incomplete" or userGrade == "Inc." or userGrade == "inc." or userGrade == "Inc" or userGrade == "inc" or userGrade == "None" or userGrade == "none":
+    if userGrade == "Incomplete" or userGrade == "incomplete" or userGrade == "Inc." or userGrade == "inc." or userGrade == "Inc" or userGrade == "inc":
         print ("\nThis is the result based on your grade percentage \nGrade: None \nDescription: Incomplete \n")
 
     # withdrawn 
@@ -56,5 +56,9 @@ else:
     # dropped
     elif userGrade == "Dropped." or userGrade == "dropped." or userGrade == "Dropped" or userGrade == "dropped" or userGrade == "D." or userGrade == "d." or userGrade == "D" or userGrade == "d":
         print ("\nThis is the result based on your grade percentage \nGrade: None \nDescription: Dropped \n")
+
+    # incomplete or withdrawn or dropped
+    if userGrade == "None." or userGrade == "none." or userGrade == "None" or userGrade == "none":
+        print ("\nThis is the result based on your grade percentage \nGrade: None \nDescription: Incomplete\Withdrawn\Dropped \n")
 
 # Code finally completed
