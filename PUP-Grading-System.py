@@ -42,3 +42,9 @@ if userGrade.isdigit() == True:
     elif roundedGrade < 65 and roundedGrade >= 0:
        print ("\nThis is the result based on your grade percentage \nGrade: None \nDescription: Incomplete\Withdrawn\Dropped \n")
 
+# if the user entered a string
+else:
+    alternativeGrade = userGrade.title()
+    # incomplete
+    if userGrade == "Incomplete" or userGrade == "incomplete" or userGrade == "Inc." or userGrade == "inc." or userGrade == "Inc" or userGrade == "inc" or userGrade == "None" or userGrade == "none":
+        print ("\nThis is the result based on your grade percentage \nGrade: None \nDescription: Incomplete \n")
