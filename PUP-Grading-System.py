@@ -52,3 +52,7 @@ else:
     # withdrawn 
     elif userGrade == "Withdrawn." or userGrade == "withdrawn." or userGrade == "Withdrawn" or userGrade == "withdrawn" or userGrade == "W" or userGrade == "w" or userGrade == "W." or userGrade == "w.":
         print ("\nThis is the result based on your grade percentage \nGrade: None \nDescription: Withdrawn \n")
+
+    # dropped
+    elif userGrade == "Dropped." or userGrade == "dropped." or userGrade == "Dropped" or userGrade == "dropped" or userGrade == "D." or userGrade == "d." or userGrade == "D" or userGrade == "d":
+        print ("\nThis is the result based on your grade percentage \nGrade: None \nDescription: Dropped \n")
