@@ -37,3 +37,8 @@ if userGrade.isdigit() == True:
     # if the user inputs number beyond the scope of the grading system
     elif roundedGrade > 100:
       print ("\nOops! Seems like you entered an invalid number. Please enter a number within the scope of the PUP Grading System. \n")
+
+    # incomplete or withdrawn or dropped
+    elif roundedGrade < 65 and roundedGrade >= 0:
+       print ("\nThis is the result based on your grade percentage \nGrade: None \nDescription: Incomplete\Withdrawn\Dropped \n")
+
