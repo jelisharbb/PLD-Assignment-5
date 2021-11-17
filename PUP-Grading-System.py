@@ -2,8 +2,11 @@
 print ("\nWelcome to PUP Grading System!")
 
 # asks for input 
-userGrade = float(input("\nPlease enter your grade percentage: "))
-roundedGrade = round(userGrade)
+userGrade = input("\nPlease enter your grade percentage: ")
+
+# if the user entered an integer\decimal
+if userGrade.isdigit() == True:
+    roundedGrade = round(float(userGrade))
 
 # 1.0 to 1.75
 if roundedGrade >= 97 and roundedGrade <= 100:
@@ -30,8 +33,15 @@ elif roundedGrade == 75:
     print ("\nThis is the result based on your grade percentage \nGrade: 3.0 \nDescription: Passing \n")
 elif roundedGrade >= 65 and roundedGrade <= 74:
     print ("\nThis is the result based on your grade percentage \nGrade: 5.0 \nDescription: Failure \n")
-
+ 
 # if the user inputs number beyond the scope of the grading system
-elif roundedGrade <= 0 or roundedGrade > 100:
+elif roundedGrade > 100:
     print ("\nOops! Seems like you entered an invalid number. Please enter a number within the scope of the PUP Grading System. \n")
-    
+
+# incomplete
+elif roundedGrade < 65 and roundedGrade >= 0:
+     print ("\nThis is the result based on your grade percentage \nGrade: None \nDescription: Incomplete\Withdrawn\Dropped \n")
+
+# withdrawn 
+
+# dropped
