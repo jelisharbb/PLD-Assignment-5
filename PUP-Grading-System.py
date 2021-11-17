@@ -48,3 +48,7 @@ else:
     # incomplete
     if userGrade == "Incomplete" or userGrade == "incomplete" or userGrade == "Inc." or userGrade == "inc." or userGrade == "Inc" or userGrade == "inc" or userGrade == "None" or userGrade == "none":
         print ("\nThis is the result based on your grade percentage \nGrade: None \nDescription: Incomplete \n")
+
+    # withdrawn 
+    elif userGrade == "Withdrawn." or userGrade == "withdrawn." or userGrade == "Withdrawn" or userGrade == "withdrawn" or userGrade == "W" or userGrade == "w" or userGrade == "W." or userGrade == "w.":
+        print ("\nThis is the result based on your grade percentage \nGrade: None \nDescription: Withdrawn \n")
