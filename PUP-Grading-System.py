@@ -56,3 +56,5 @@ else:
     # dropped
     elif userGrade == "Dropped." or userGrade == "dropped." or userGrade == "Dropped" or userGrade == "dropped" or userGrade == "D." or userGrade == "d." or userGrade == "D" or userGrade == "d":
         print ("\nThis is the result based on your grade percentage \nGrade: None \nDescription: Dropped \n")
+
+# Code finally completed
