@@ -15,4 +15,5 @@ firstNum = float(input("\nEnter a number: "))
 secondNum = float(input("Enter another number: "))
 thirdNum = float(input("Enter another number: "))
 
+# calling out the defined function
 lowestOfTheThree(firstNum, secondNum, thirdNum)
