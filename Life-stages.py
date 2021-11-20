@@ -20,4 +20,4 @@ elif userAge >= 66 and userAge <= 120:
 
 # if the user entered an invalid number
 else:
-    print ("Oops! Seems like you entered an invalid age. Are you a ghost? \n")
+    print ("\nOops! Seems like you entered an invalid age. Are you a ghost? \n")

@@ -5,7 +5,7 @@ print ("\nWelcome to PUP Grading System!")
 userGrade = input("\nPlease enter your grade percentage: ")
 
 # if the user entered an integer\decimal
-if userGrade.isdigit() == True:
+if userGrade.replace(".","",1).isdigit() == True:
     roundedGrade = round(float(userGrade))
 
     # 1.0 to 1.75
@@ -58,7 +58,11 @@ else:
         print ("\nThis is the result based on your grade percentage \nGrade: None \nDescription: Dropped \n")
 
     # incomplete or withdrawn or dropped
-    if userGrade == "None." or userGrade == "none." or userGrade == "None" or userGrade == "none":
+    elif userGrade == "None." or userGrade == "none." or userGrade == "None" or userGrade == "none":
         print ("\nThis is the result based on your grade percentage \nGrade: None \nDescription: Incomplete\Withdrawn\Dropped \n")
+
+    # invalid input
+    else:
+        print ("\nOops! Your input is not included in the PUP Grading System. Please try again with appropriate input. \n")
 
 # Code finally completed
